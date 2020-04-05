@@ -11,7 +11,7 @@ organization := "io.github.jacopogobbi"
 
 ThisBuild / scalaVersion := "2.12.8"
 
-val flinkVersion = "1.7.2"
+val flinkVersion = "1.10.0"
 
 val flinkDependencies = Seq(
   "org.apache.flink" %% "flink-scala" % flinkVersion % "provided",
